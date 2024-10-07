@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Compulty Utilities",
+  "version": "1.0",
+  "description": "System Utilities for Compulty Inc.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "id": "d577273ff885c3f84dadb8578bb41399",
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
