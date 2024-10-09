@@ -12,3 +12,8 @@ Note: No data is captured or sent anywhere outside of your browser.
 - This extension needs to run on the active tab to accurately detect Minecraft activity, as the game is typically played in the foreground window.
 ## justify when this extension need to run a script
 - This extension needs to run a script when the user is actively typing on a webpage to detect Minecraft-related keystroke patterns.
+
+# How to self-host the extension (edge only)
+- https://learn.microsoft.com/en-us/deployedge/microsoft-edge-manage-extensions-webstore#distribute-a-privately-hosted-extension
+- package the CRX: Use edge + developer mode and the same PEM file to ensure the extension's ID remains consistent.
+- release a Version: Upload both the CRX file and the associated XML manifest.
